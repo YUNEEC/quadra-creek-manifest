@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="ibb" fetch=".." review="https://gerrit.ibbprof.com/gerrit2/"/>
+  <default revision="platform/yocto" remote="ibb" />
+
+  <project path="poky" name="a/yocto/poky"/>
+  <project path="meta-intel" name="a/yocto/meta-intel"/>
+</manifest>

@@ -6,4 +6,6 @@
 
   <project path="poky" name="a/yocto/poky"/>
   <project path="poky/meta-intel" name="a/yocto/meta-intel"/>
+  <project path="poky/meta-up-board" name="a/yocto/meta-up-board"/>
+
 </manifest>

@@ -2,10 +2,12 @@
 <manifest>
 
   <remote  name="ibb" fetch=".." review="https://gerrit.ibbprof.com/gerrit2/"/>
-  <default revision="platform/yocto_krogoth" remote="ibb" />
+  <default revision="yocto/krogoth" remote="ibb" />
 
   <project path="poky" name="a/yocto/poky"/>
   <project path="poky/meta-intel" name="a/yocto/meta-intel"/>
-  <project path="poky/meta-up-board" name="a/yocto/meta-up-board"/>
-  <project path="poky/meta-intel_cht-t3" name="a/yocto/meta-intel_cht-t3"/>
+  <project path="poky/meta-intel-bsp" name="a/yocto/meta-intel-bsp"/>
+  <project path="poky/meta-openembedded" name="a/yocto/meta-openembedded"/>
+  <project path="poky/meta-ota" name="a/yocto/meta-ota"/>
+  <project path="poky/ota" name="a/yocto/ota"/>
 </manifest>

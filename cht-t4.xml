@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="ibb" fetch=".." review="https://gerrit.ibbprof.com/gerrit2/"/>
-  <default remote="ibb" />
+  <default revision="cht-t4/krogoth" remote="ibb" />
 
   <project path="poky" name="a/yocto/poky" revision="yocto/krogoth"/>
   <project path="poky/meta-intel" name="a/yocto/meta-intel" revision="yocto/krogoth"/>

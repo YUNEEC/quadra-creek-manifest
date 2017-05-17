@@ -9,6 +9,7 @@
   <project path="poky/meta-intel-bsp" name="a/yocto/meta-intel-bsp"/>
   <project path="poky/meta-openembedded" name="a/yocto/meta-openembedded"/>
   <project path="poky/meta-intel-common" name="a/yocto/meta-intel-common"/>
+  <project path="poky/meta-intel-private" name="a/yocto/meta-intel-private"/>
   <project path="poky/meta-ota" name="a/yocto/meta-ota"/>
   <project path="poky/meta-intel-secureboot" name="a/yocto/meta-intel-secureboot"/>
 </manifest>

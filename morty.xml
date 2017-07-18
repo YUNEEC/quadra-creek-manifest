@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote  name="github-internal" fetch=".." review="git@github.intel.com"/>
+  <default revision="platform/yocto" remote="github-internal" />
 
-  <remote  name="ibb" fetch=".." review="https://gerrit.ibbprof.com/gerrit2/"/>
-  <default revision="platform/yocto" remote="ibb" />
-
-  <project path="poky" name="a/yocto/poky"/>
-  <project path="poky/meta-intel" name="a/yocto/meta-intel"/>
-  <project path="poky/meta-up-board" name="a/yocto/meta-up-board"/>
+  <project path="poky" name="quadra-creek/poky"/>
+  <project path="poky/meta-intel" name="quadra-creek/meta-intel"/>
+  <project path="poky/meta-up-board" name="quadra-creek/meta-up-board"/>
 </manifest>

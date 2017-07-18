@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="ibb" fetch=".." review="https://gerrit.ibbprof.com/gerrit2/"/>
-  <default revision="cht-t4/krogoth" remote="ibb" />
-
-  <project path="poky" name="a/yocto/poky" revision="yocto/krogoth"/>
-  <project path="poky/meta-intel" name="a/yocto/meta-intel" revision="yocto/krogoth"/>
-  <project path="poky/meta-intel-bsp" name="a/yocto/meta-intel-bsp" revision="cht-t4/krogoth"/>
-  <project path="poky/meta-openembedded" name="a/yocto/meta-openembedded" revision="yocto/krogoth"/>
-  <project path="poky/meta-intel-librealsense" name="a/yocto/meta-intel-librealsense" revision="cht-t4/krogoth"/>
+  <remote  name="github-internal" fetch=".." review="git@github.intel.com"/>
+  <default revision="cht-t4/krogoth" remote="github-internal" />
+  
+  <project path="poky" name="quadra-creek/poky" revision="yocto/krogoth"/>
+  <project path="poky/meta-intel" name="quadra-creek/meta-intel" revision="yocto/krogoth"/>
+  <project path="poky/meta-intel-bsp" name="quadra-creek/meta-intel-bsp" revision="cht-t4/krogoth"/>
+  <project path="poky/meta-openembedded" name="quadra-creek/meta-openembedded" revision="yocto/krogoth"/>
+  <project path="poky/meta-intel-librealsense" name="quadra-creek/meta-intel-librealsense" revision="cht-t4/krogoth"/>
 </manifest>

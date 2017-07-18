@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="ibb" fetch=".." review="https://gerrit.ibbprof.com/gerrit2/"/>
-  <default revision="yocto/krogoth" remote="ibb" />
+  <remote  name="github-internal" fetch=".." review="git@github.intel.com"/>
+  <default revision="yocto/krogoth" remote="github-internal" />
 
-  <project path="poky" name="a/yocto/poky"/>
-  <project path="poky/meta-intel" name="a/yocto/meta-intel"/>
-  <project path="poky/meta-intel-bsp" name="a/yocto/meta-intel-bsp"/>
-  <project path="poky/meta-openembedded" name="a/yocto/meta-openembedded"/>
-  <project path="poky/meta-intel-common" name="a/yocto/meta-intel-common"/>
-  <project path="poky/meta-intel-private" name="a/yocto/meta-intel-private"/>
-  <project path="poky/meta-ota" name="a/yocto/meta-ota"/>
-  <project path="poky/meta-intel-secureboot" name="a/yocto/meta-intel-secureboot"/>
+  <project path="poky" name="quadra-creek/poky"/>
+  <project path="poky/meta-intel" name="quadra-creek/meta-intel"/>
+  <project path="poky/meta-intel-bsp" name="quadra-creek/meta-intel-bsp"/>
+  <project path="poky/meta-openembedded" name="quadra-creek/meta-openembedded"/>
+  <project path="poky/meta-intel-common" name="quadra-creek/meta-intel-common"/>
+  <project path="poky/meta-intel-private" name="quadra-creek/meta-intel-private"/>
+  <project path="poky/meta-ota" name="quadra-creek/meta-ota"/>
+  <project path="poky/meta-intel-secureboot" name="quadra-creek/meta-intel-secureboot"/>
 </manifest>

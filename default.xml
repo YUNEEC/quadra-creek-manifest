@@ -1,1 +1,14 @@
-krogoth.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.intel.com/PercHW/" name="realsense-internal"/>
+  <remote fetch="https://github.intel.com/quadra-creek/" name="qc-internal"/>
+  <remote fetch="git://git.openembedded.org/" name="oe"/>
+  <remote fetch="http://git.yoctoproject.org/git/" name="yocto"/>
+  
+  <project name="meta-quadra-creek" remote="qc-internal" revision="master"/>
+  <project name="meta-intel" remote="yocto" revision="pyro"/>
+  <project name="meta-intel-aero-base" remote="qc-internal" revision="master"/>
+  <project name="meta-intel-realsense" remote="realsense-internal" revision="lrs2_proto_poky_krogoth"/>
+  <project name="meta-openembedded" remote="oe" revision="pyro"/>
+  <project name="poky" remote="yocto" revision="pyro"/>
+</manifest>

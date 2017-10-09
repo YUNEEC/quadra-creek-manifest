@@ -13,4 +13,5 @@
   <project name="meta-intel-realsense" remote="realsense-internal" revision="lrs2_proto_poky_krogoth"/>
   <project name="meta-openembedded" remote="oe" revision="pyro"/>
   <project name="poky" remote="yocto" revision="pyro"/>
+  <project name="meta-virtualization" remote="yocto" revision="430233eb6e547aeaf6111c8159244bf1d82d09c1"/>
 </manifest>

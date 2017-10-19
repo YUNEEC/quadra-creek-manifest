@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://git.openembedded.org/" name="oe"/>
+  <remote fetch="https://github.intel.com/quadra-creek/" name="qc-internal"/>
+  <remote fetch="https://github.intel.com/PercHW/" name="realsense-internal"/>
+  <remote fetch="git://github.com/morphis/" name="snap"/>
+  <remote fetch="http://git.yoctoproject.org/git/" name="yocto"/>
+  
+  <project name="meta-intel" remote="yocto" revision="63de2abadfa8164e28575e412e2bd9c315840ddb" upstream="pyro"/>
+  <project name="meta-intel-aero-base" remote="qc-internal" revision="997dbf205e3a4a4ab43568c0c777c8174f4a2424" upstream="master"/>
+  <project name="meta-intel-realsense" remote="realsense-internal" revision="a856ff6b79d6bfc920e43a181ea24a090f513db0" upstream="lrs2_proto_poky_krogoth"/>
+  <project name="meta-openembedded" remote="oe" revision="5e82995148a2844c6f483ae5ddd1438d87ea9fb7" upstream="pyro"/>
+  <project name="meta-quadra-creek" remote="qc-internal" revision="1f5a2a6dd6b0bb163e21d11872e24909bbc24812" upstream="master"/>
+  <project name="meta-snappy" remote="snap" revision="a0432dcff49e35af9175c5bdd57d6b5871062ecf" upstream="pyro"/>
+  <project name="meta-virtualization" remote="yocto" revision="430233eb6e547aeaf6111c8159244bf1d82d09c1"/>
+  <project name="poky" remote="yocto" revision="827eb5b232d54909377e2b18d39d34d6c1c21413" upstream="pyro"/>
+</manifest>

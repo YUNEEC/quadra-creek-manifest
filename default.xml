@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://github.intel.com/PercHW/" name="realsense-internal"/>
+  <remote fetch="https://github.com/IntelRealSense/" name="realsense"/>
   <remote fetch="https://github.intel.com/quadra-creek/" name="qc-internal"/>
   <remote fetch="git://git.openembedded.org/" name="oe"/>
   <remote fetch="http://git.yoctoproject.org/git/" name="yocto"/>
@@ -10,7 +10,7 @@
   <project name="meta-intel" remote="yocto" revision="pyro"/>
   <project name="meta-intel-aero-base" remote="qc-internal" revision="master"/>
   <project name="meta-snappy" remote="snap" revision="pyro"/>
-  <project name="meta-intel-realsense" remote="realsense-internal" revision="lrs2_proto_poky_krogoth"/>
+  <project name="meta-intel-realsense" remote="realsense" revision="pyro"/>
   <project name="meta-openembedded" remote="oe" revision="5e82995148a2844c6f483ae5ddd1438d87ea9fb7" upstream="pyro"/>
   <project name="poky" remote="yocto" revision="pyro"/>
   <project name="meta-virtualization" remote="yocto" revision="430233eb6e547aeaf6111c8159244bf1d82d09c1"/>

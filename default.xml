@@ -4,11 +4,9 @@
   <remote fetch="https://github.intel.com/quadra-creek/" name="qc-internal"/>
   <remote fetch="git://git.openembedded.org/" name="oe"/>
   <remote fetch="http://git.yoctoproject.org/git/" name="yocto"/>
-  <remote fetch="git://github.com/morphis/" name="snap"/>
   
   <project name="meta-quadra-creek" remote="qc-internal" revision="master"/>
   <project name="meta-intel" remote="yocto" revision="pyro"/>
-  <project name="meta-snappy" remote="snap" revision="pyro"/>
   <project name="meta-intel-realsense" remote="realsense" revision="pyro"/>
   <project name="meta-openembedded" remote="oe" revision="5e82995148a2844c6f483ae5ddd1438d87ea9fb7" upstream="pyro"/>
   <project name="poky" remote="yocto" revision="pyro"/>

@@ -10,5 +10,5 @@
   <project name="meta-intel-realsense" remote="realsense" revision="pyro"/>
   <project name="meta-openembedded" remote="oe" revision="5e82995148a2844c6f483ae5ddd1438d87ea9fb7" upstream="pyro"/>
   <project name="poky" remote="yocto" revision="pyro"/>
-  <project name="meta-virtualization" remote="yocto" revision="430233eb6e547aeaf6111c8159244bf1d82d09c1"/>
+  <project name="meta-virtualization" remote="yocto" revision="pyro"/>
 </manifest>
